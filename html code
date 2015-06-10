@@ -6,7 +6,7 @@
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
-<script src="/assets/jquery.js"></script>
+<script href="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <style>
 h1 {
   text-align: center
@@ -77,7 +77,10 @@ var ism = [
 	'demi-improvised',
 	'genderqueer',
 	'minimalist',
-	'dystopian'
+	'dystopian',
+	'verbatim',
+	'Arena Spectacular',
+	'musical'
    ]
 
 // List of plays
@@ -85,7 +88,16 @@ var play = [
 	'Murder She Wrote',
 	'Taming of the Shrew',
 	'The Hitchhikers Guide to the Galaxy', 
-	'The Fresh Prince of Bel Air'
+	'The Fresh Prince of Bel Air',
+	'The Old Testament',
+	'That dumb long poem by TS Eliot',
+	'Hamlet',
+	'Scrabble',
+	'Waiting for Godot',
+	'The Glass Menagerie',
+	'The Da Vinci Code',
+	'The Removalists',
+	'Anything by Martin McDonagh',
    ]
 
 // List of aesthetics
@@ -93,7 +105,10 @@ var feel = [
 	'Glam Rock',
 	'Steampunk',
 	'Game of Thrones',
-	'Space Noir'
+	'Space Noir',
+	'hella gay',
+	'sci-fi',
+	'Cold War'
    ]
    
 $( "button" ).click(function() {
