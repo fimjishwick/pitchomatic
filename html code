@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+<script src="/assets/jquery.js"></script>
+<style>
+h1 {
+  text-align: center
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  }
+  
+body {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 20px;
+  background: #e6eaf0;
+}
+
+button {
+  margin: 40px
+  font-size:20px;
+}
+
+input {
+  font-size: 24px;
+}
+
+div {
+  display: inline;
+  font-family: 'Shadows Into Light;
+  }
+
+.fill {
+  background: white;
+  color: red;
+  border-bottom: 2px black solid;
+  font-family: 'Shadows Into Light';
+  padding: 0 6px;
+  margin: 4px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1><u>The Pitch-o-matic </u></h1>
+
+<button class="moar">Pitch!</button> <br><br>
+
+<p><div class="greets"></div><br> <br>a <span class="fill"><div class="ism"></div></span> adaption <br><br>of <span class="fill"><div class="play"></div></span> <br><br>with a <span class="fill"><div class="feel"></div></span> aesthetic.<br></p>
+
+
+
+<script>
+$("p").hide();
+
+//list of intros
+var greets = [
+  "I'd like to propose",
+  "My pitch is for",
+  "Why haven't we done",
+  "I've got it! Why not put on",
+  'Close your eyes, and picture:',
+  'This is the production we deserve:',
+  ]
+
+// List of isms
+var ism = [
+	'postmodern',
+	'really ironic',
+	'demi-improvised',
+	'genderqueer',
+	'minimalist',
+	'dystopian'
+   ]
+
+// List of plays
+var play = [
+	'Murder She Wrote',
+	'Taming of the Shrew',
+	'The Hitchhikers Guide to the Galaxy', 
+	'The Fresh Prince of Bel Air'
+   ]
+
+// List of aesthetics
+var feel = [
+	'Glam Rock',
+	'Steampunk',
+	'Game of Thrones',
+	'Space Noir'
+   ]
+   
+$( "button" ).click(function() {
+  
+    //return a random greet
+$('.greets').html(greets[Math.floor(Math.random() * greets.length)]);
+  
+  //return a random ism
+$('.ism').html(ism[Math.floor(Math.random() * ism.length)]);
+
+//return a random play
+$('.play').html(play[Math.floor(Math.random() * play.length)]);
+
+//return a random aesthetic
+$('.feel').html(feel[Math.floor(Math.random() * feel.length)]);
+});
+  
+</script>
+
+</body>
