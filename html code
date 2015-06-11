@@ -50,7 +50,8 @@
    position: absolute;
    font-family: 'Lato';
    bottom: 5px;
-   right: 5px
+   right: 5px;
+   color: black;
  }
  
  .fill {
@@ -187,7 +188,7 @@
   "The Crucible",
   "Little Women",
   "Wuthering Heights",
-  'Wagner's Ring Cycle'
+  "Wagner's Ring Cycle"
     ]
  
  // List of aesthetics
