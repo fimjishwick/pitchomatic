@@ -40,7 +40,7 @@ div {
   background: white;
   color: red;
   border-bottom: 2px black solid;
-  font-family: 'Shadows Into Light';
+  font-family: 'Reenie Beanie';
   padding: 0 6px;
   margin: 4px;
 }
