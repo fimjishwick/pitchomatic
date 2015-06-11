@@ -95,7 +95,7 @@
    "We should totally do",
    "I've got it! Why not put on",
    'Close your eyes, and picture:',
-   'This is the production we deserve:',
+   'This is the production we deserve:'
    ]
  
  // List of isms
@@ -187,7 +187,7 @@
   "The Crucible",
   "Little Women",
   "Wuthering Heights",
-  'Wagner's Ring Cycle',
+  'Wagner's Ring Cycle'
     ]
  
  // List of aesthetics
@@ -201,7 +201,7 @@
    'Cold War',
   'Film Noir',
   'Tumblr',
-  '2004',
+  '1997',
   'Michel Gondry',
   'Disney',
   'CCTV',
@@ -224,7 +224,7 @@
   'Fairytale',
   'Enid Blyton',
   'kind of avant garde',
-  'Super Mario Bros',
+  'Super Mario Bros'
     ]
   
   // when a button is clicked  
