@@ -113,6 +113,11 @@
   'Dogma 95',
   'site-specific',
   'half-hearted',
+  'surrealist',
+  'stripped back',
+  'robot-cast',
+  'gender-swapped',
+  'traditional',
     ]
  
  // List of plays
@@ -136,17 +141,24 @@
   'Rocky V',
   'The Sound of Music',
   'The trials of Hercules',
+  'Hamletmachine',
+  "A Doll’s House",
+  "a Greek tragedy",
+  "The Phantom of the Opera",
+  "a Midsummer Night's Dream",
+  "Mean Girls",
+  "Pride and Prejudice"
     ]
  
  // List of aesthetics
  var feel = [
   'Glam Rock',
-	'Steampunk',
-	'Game of Thrones',
-	'Space Noir',
-	'hella gay',
-	'sci-fi',
-	'Cold War',
+  'Steampunk',
+  'Game of Thrones',
+  'Space Noir',
+  'hella gay',
+  'sci-fi',
+   'Cold War',
   'Film Noir',
   'Tumblr',
   '2004',
@@ -156,6 +168,13 @@
   'post-apocalyptic',
   'blaxploitation',
   "commedia dell'arte",
+  "mono-chromatic",
+  "20s swing",
+  "zombie",
+  "psychedelic",
+  "seventies",
+  "hipster",
+  "high school uniform",
     ]
   
   // when a button is clicked  
