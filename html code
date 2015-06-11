@@ -33,7 +33,6 @@ input {
 
 div {
   display: inline;
-  font-family: 'Reenie Beanie', cursive;
   }
 
 .fill {
