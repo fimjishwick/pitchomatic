@@ -22,7 +22,7 @@
    background: #e6eaf0;
  }
  header {
-   background: url(http://pixabay.com/static/uploads/photo/2013/04/18/11/42/theater-105573_640.jpg);
+   background: url(http://i.imgur.com/sNHm9GD.jpg);
    background-repeat: norepeat;
    background-size: cover;
  }
@@ -63,7 +63,7 @@
  <header>.
  
  
- <h1><u>The Pitch-o-matic </u></h1><br><</header>
+ <h1><u>The Pitch-o-matic </u></h1><br></header>
  
  
  
