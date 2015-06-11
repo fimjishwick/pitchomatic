@@ -21,6 +21,7 @@
    font-size: 20px;
    background: #e6eaf0;
  }
+
  header {
    background: url(https://farm5.staticflickr.com/4107/5082213817_d2747774c0_o.jpg);
    background-repeat: norepeat;
@@ -45,15 +46,11 @@
    display: inline;
    }
  
- .disclaimer {
-   position: fixed;
-   color: black;
-   font-size: 12;
+ .rights {
+   position: absolute;
    font-family: 'Lato';
-   bottom: 5;
-   right: 5;
-   width: cover;
-   "
+   bottom: 5px;
+   right: 5px
  }
  
  .fill {
@@ -82,8 +79,8 @@
  
 <button><div class="pitch">Pitch!</div></button>
 
-<div class="disclaimer">
-  Pitch-o-matic by <a href="http://facebook.com/fimjishwick">Jim Fishwick</a><br>Image by <a href="https://www.flickr.com/photos/beija">Benjamin Thompson</a> </div>
+<div class="rights"><font size="2">
+  Pitch-o-matic by <a href="http://facebook.com/fimjishwick">Jim Fishwick</a><br>Image by <a href="https://www.flickr.com/photos/beija">Benjamin Thompson</a></div></font>
  <script>
 
 // hide empty text to start with
