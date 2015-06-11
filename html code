@@ -33,14 +33,14 @@ input {
 
 div {
   display: inline;
-  font-family: 'Reenie Beanie';
+  font-family: 'Reenie Beanie', cursive;
   }
 
 .fill {
   background: white;
   color: red;
   border-bottom: 2px black solid;
-  font-family: 'Reenie Beanie';
+  font-family: 'Reenie Beanie', cursive;
   padding: 0 6px;
   margin: 4px;
 }
