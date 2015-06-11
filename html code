@@ -1,149 +1,161 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
+ 
+ <head>
+ 
+ <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <style>
+ h1 {
+   text-align: center;
+   font-family: 'Lobster', cursive;
+   font-size: 40px;
+   }
+   
+ body {
+   text-align: center;
+   font-family: 'Lato';
+   font-size: 20px;
+   background: #e6eaf0;
+ }
+ 
+ button {
+   margin: 40px 0 -0px 0;
+   font-size:20px;
+   font-family: 'Lobster';
+ }
+ 
+ input {
+   font-size: 24px;
+ }
+ 
+ div {
+   display: inline;
+   }
+ 
+ .fill {
+   background: white;
+   color: red;
+   font-size: 30px;
+   border-bottom: 2px black solid;
+   font-family: 'Reenie Beanie';
+   padding: 0 6px;
+   margin: 4px;
+ }
+ 
+ </style>
+ </head>
+ 
+ <body>
+ 
+ <h1><u>The Pitch-o-matic </u></h1>
+ 
+ <button><div class="pitch">Pitch!</div></button><br><br>
+ 
+<div class="moar"><div class="greets"></div><br> <br>a<div class="clitic"></div> <span class="fill"><div class="ism"></div></span> production <br><br>of <span class="fill"><div class="play"></div></span> <br><br>with a <span class="fill"><div class="feel"></div></span> aesthetic.</div>
+ 
+ 
+ 
+ <script>
 
-<head>
-
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<style>
-h1 {
-  text-align: center;
-  font-family: 'Lobster’, cursive;
-  font-size: 40px;
-  }
-  
-body {
-  text-align: center;
-  font-family: 'Lato';
-  font-size: 20px;
-  background: #e6eaf0;
-}
-
-button {
-  margin: 40px;
-  font-size: 30px;
-  font-family: 'Lobster', cursive;
-}
-
-div {
-  display: inline;
-  }
-
-.fill {
-  background: white;
-  color: red;
-  font-size: 30px;
-  border-bottom: 2px black solid;
-  font-family: 'Reenie Beanie', cursive;
-  padding: 0 6px;
-  margin: 4px;
-}
-
-</style>
-</head>
-
-<body>
-
-<h1><u>The Pitch-o-matic </u></h1>
-
-<button>Pitch!</button> <br><br>
-
-<div class="greets"></div><br> <br>a <span class="fill"><div class="ism"></div></span> production <br><br>of <span class="fill"><div class="play"></div></span> <br><br>with a <span class="fill"><div class="feel"></div></span> aesthetic.
-
-
-
-<script>
-
-//list of intros
-var greets = [
-  "I'd like to propose",
-  "My pitch is for",
-  'I know! We should put on',
-  'Close your eyes, and picture',
-  'Let me propose to you',
-  ]
-
-// List of isms
-var ism = [
-	'postmodern',
+// hide empty text to start with
+ $(".moar").hide();
+ 
+ //list of intros
+ var greets = [
+   "I'd like to propose",
+   "My pitch is for",
+   "I've got this great idea for",
+   "Let me tell you about",
+   "We should totally do",
+   "I've got it! Why not put on",
+   'Close your eyes, and picture:',
+   'This is the production we deserve:',
+   ]
+ 
+ // List of isms
+ var ism = [
+ 	'postmodern',
 	'really ironic',
 	'demi-improvised',
 	'genderqueer',
 	'minimalist',
 	'dystopian',
-	'spoken word verbatim',
-	’Stadium Spectacular',
+	'Stadium Spectacular',
 	'musical',
-        'fully shirtless',
-        ‘rap’,
-        'Dogma 95',
-        'site-specific’,
-        'half-hearted',
-   ]
-
-// List of plays
-var play = [
-	'Romeo and Juliet',
+  'fully shirtless',
+  'rap',
+  'Dogma 95',
+  'site-specific',
+  'half-hearted',
+    ]
+ 
+ // List of plays
+ var play = [
+  'Romeo and Juliet',
 	'The Fresh Prince of Bel Air',
 	'The Old Testament',
 	'That dumb long poem by TS Eliot',
 	'Hamlet',
-        'Hamlet',
-        'Hamlet',
+  'Hamlet',
+  'Hamlet',
 	'Scrabble',
 	'Waiting for Godot',
 	'The Glass Menagerie',
 	'The Da Vinci Code',
 	'The Removalists',
 	'pretty much anything by Martin McDonagh',
-        "this obscure Australian play no-one's heard of",
-        'my diary',
-        'the Australian constitution',
-        'Rocky',
-        'The Sound of Music',
-        'The trials of Hercules',
-   ]
-
-// List of aesthetics
-var feel = [
-	'Glam Rock',
+  "this obscure Australian play no-one's heard of",
+  'my diary',
+  'the Australian constitution',
+  'Rocky V',
+  'The Sound of Music',
+  'The trials of Hercules',
+    ]
+ 
+ // List of aesthetics
+ var feel = [
+  'Glam Rock',
 	'Steampunk',
 	'Game of Thrones',
 	'Space Noir',
 	'hella gay',
 	'sci-fi',
 	'Cold War',
-        'Film Noir',
-        'Tumblr',
-        '2004',
-        'Michel Gondry',
-        'Disney',
-        'CCTV',
-        'post-apocalyptic',
-        'blaxploitation',
-        "commedia dell'arte",
-   ]
+  'Film Noir',
+  'Tumblr',
+  '2004',
+  'Michel Gondry',
+  'Disney',
+  'CCTV',
+  'post-apocalyptic',
+  'blaxploitation',
+  "commedia dell'arte",
+    ]
   
-// when I click Pitch! 
-$( "button" ).click(function() {
-
-
-	//return a random greet
-	$('.greets').html(greets[Math.floor(Math.random() * greets.length)]);
+  // when a button is clicked  
+ $( "button" ).click(function() {
+   
+     //return a random greet
+ $('.greets').html(greets[Math.floor(Math.random() * greets.length)]);
+   
+   //return a random ism
+ $('.ism').html(ism[Math.floor(Math.random() * ism.length)]);
+ 
+ //return a random play
+ $('.play').html(play[Math.floor(Math.random() * play.length)]);
+ 
+ //return a random aesthetic
+ $('.feel').html(feel[Math.floor(Math.random() * feel.length)]);
+ 
+ //show the funny bit
+  $(".moar").show();
   
-	//return a random ism
-	$('.ism').html(ism[Math.floor(Math.random() * ism.length)]);
+ // change button text
+  $(".pitch").html('Pitch Again!')
+ });
 
-	//return a random play
-	$('.play').html(play[Math.floor(Math.random() * play.length)]);
-
-	//return a random aesthetic
-	$('.feel').html(feel[Math.floor(Math.random() * feel.length)]);
-});
-  
-</script>
-
-</body>
+ </script> 
+ </body>
