@@ -11,7 +11,7 @@
 <style>
 h1 {
   text-align: center;
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster’, cursive;
   font-size: 40px;
   }
   
@@ -24,12 +24,8 @@ body {
 
 button {
   margin: 40px;
-  font-size:30px;
+  font-size: 30px;
   font-family: 'Lobster', cursive;
-}
-
-input {
-  font-size: 24px;
 }
 
 div {
@@ -39,6 +35,7 @@ div {
 .fill {
   background: white;
   color: red;
+  font-size: 30px;
   border-bottom: 2px black solid;
   font-family: 'Reenie Beanie', cursive;
   padding: 0 6px;
@@ -52,14 +49,16 @@ div {
 
 <h1><u>The Pitch-o-matic </u></h1>
 
-<button class="moar">Pitch!</button> <br><br>
+<button>Pitch!</button> <br><br>
 
-<p><div class="greets"></div><br> <br><span class="fill"><div class="ism"></div></span> adaption <br><br>of <span class="fill"><div class="play"></div></span> <br><br>with a <span class="fill"><div class="feel"></div></span> aesthetic.<br></p>
+<div class=“moar”><div class="greets"></div><br> <br>a <span class="fill"><div class="ism"></div></span> production <br><br>of <span class="fill"><div class="play"></div></span> <br><br>with a <span class="fill"><div class="feel"></div></span> aesthetic.</div>
 
 
 
 <script>
-$("p").hide();
+
+//start off hiding empty text
+$(’.moar’).hide()
 
 //list of intros
 var greets = [
@@ -67,26 +66,26 @@ var greets = [
   "My pitch is for",
   "Why haven't we done",
   "I've got it! Why not put on",
-  'Close your eyes, and picture:',
-  'This is the production we deserve:',
+  "Close your eyes, and picture"
+  "Let me propose to you",
   ]
 
 // List of isms
 var ism = [
-	'a postmodern',
-	'a really ironic',
-	'a demi-improvised',
-	'a genderqueer',
-	'a minimalist',
-	'a dystopian',
-	'a spoken word verbatim',
-	'an Arena Spectacular',
-	'a musical',
-        'a fully shirtless',
-        'an entirely rapped',
-        'a Dogma 95',
-        'an interactive',
-        'a half-hearted'
+	'postmodern',
+	'really ironic',
+	'demi-improvised',
+	'genderqueer',
+	'minimalist',
+	'dystopian',
+	'spoken word verbatim',
+	’Stadium Spectacular',
+	'musical',
+        'fully shirtless',
+        ‘rap’,
+        'Dogma 95',
+        'site-specific’,
+        'half-hearted',
    ]
 
 // List of plays
@@ -109,7 +108,7 @@ var play = [
         'the Australian constitution',
         'Rocky',
         'The Sound of Music',
-        'The trials of Hercules'
+        'The trials of Hercules',
    ]
 
 // List of aesthetics
@@ -129,22 +128,26 @@ var feel = [
         'CCTV',
         'post-apocalyptic',
         'blaxploitation',
-        'commedia dell arte'
+        "commedia dell'arte",
    ]
-   
+  
+// when I click Pitch! 
 $( "button" ).click(function() {
-  
-    //return a random greet
-$('.greets').html(greets[Math.floor(Math.random() * greets.length)]);
-  
-  //return a random ism
-$('.ism').html(ism[Math.floor(Math.random() * ism.length)]);
 
-//return a random play
-$('.play').html(play[Math.floor(Math.random() * play.length)]);
+	// show the empty text
+	$(‘.moar’).show()
 
-//return a random aesthetic
-$('.feel').html(feel[Math.floor(Math.random() * feel.length)]);
+	//return a random greet
+	$('.greets').html(greets[Math.floor(Math.random() * greets.length)]);
+  
+	//return a random ism
+	$('.ism').html(ism[Math.floor(Math.random() * ism.length)]);
+
+	//return a random play
+	$('.play').html(play[Math.floor(Math.random() * play.length)]);
+
+	//return a random aesthetic
+	$('.feel').html(feel[Math.floor(Math.random() * feel.length)]);
 });
   
 </script>
