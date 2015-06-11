@@ -61,10 +61,9 @@ div {
 var greets = [
   "I'd like to propose",
   "My pitch is for",
-  "Why haven't we done",
-  "I've got it! Why not put on",
-  "Close your eyes, and picture"
-  "Let me propose to you",
+  'I know! We should put on',
+  'Close your eyes, and picture',
+  'Let me propose to you',
   ]
 
 // List of isms
