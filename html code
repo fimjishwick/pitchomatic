@@ -51,14 +51,11 @@ div {
 
 <button>Pitch!</button> <br><br>
 
-<div class=“moar”><div class="greets"></div><br> <br>a <span class="fill"><div class="ism"></div></span> production <br><br>of <span class="fill"><div class="play"></div></span> <br><br>with a <span class="fill"><div class="feel"></div></span> aesthetic.</div>
+<div class="greets"></div><br> <br>a <span class="fill"><div class="ism"></div></span> production <br><br>of <span class="fill"><div class="play"></div></span> <br><br>with a <span class="fill"><div class="feel"></div></span> aesthetic.
 
 
 
 <script>
-
-//start off hiding empty text
-$(’.moar’).hide()
 
 //list of intros
 var greets = [
@@ -134,8 +131,6 @@ var feel = [
 // when I click Pitch! 
 $( "button" ).click(function() {
 
-	// show the empty text
-	$(‘.moar’).show()
 
 	//return a random greet
 	$('.greets').html(greets[Math.floor(Math.random() * greets.length)]);
