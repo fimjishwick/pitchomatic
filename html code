@@ -72,32 +72,43 @@ var greets = [
 
 // List of isms
 var ism = [
-	'postmodern',
-	'really ironic',
-	'demi-improvised',
-	'genderqueer',
-	'minimalist',
-	'dystopian',
-	'verbatim',
-	'Arena Spectacular',
-	'musical'
+	'a postmodern',
+	'a really ironic',
+	'a demi-improvised',
+	'a genderqueer',
+	'a minimalist',
+	'a dystopian',
+	'a spoken word verbatim',
+	'an Arena Spectacular',
+	'a musical',
+        'a fully shirtless',
+        'an entirely rapped',
+        'a Dogma 95',
+        'an interactive',
+        'a half-hearted'
    ]
 
 // List of plays
 var play = [
-	'Murder She Wrote',
-	'Taming of the Shrew',
-	'The Hitchhikers Guide to the Galaxy', 
+	'Romeo and Juliet',
 	'The Fresh Prince of Bel Air',
 	'The Old Testament',
 	'That dumb long poem by TS Eliot',
 	'Hamlet',
+        'Hamlet',
+        'Hamlet',
 	'Scrabble',
 	'Waiting for Godot',
 	'The Glass Menagerie',
 	'The Da Vinci Code',
 	'The Removalists',
-	'Anything by Martin McDonagh',
+	'pretty much anything by Martin McDonagh',
+        "this obscure Australian play no-one's heard of",
+        'my diary',
+        'the Australian constitution',
+        'Rocky',
+        'The Sound of Music',
+        'The trials of Hercules'
    ]
 
 // List of aesthetics
@@ -108,7 +119,16 @@ var feel = [
 	'Space Noir',
 	'hella gay',
 	'sci-fi',
-	'Cold War'
+	'Cold War',
+        'Film Noir',
+        'Tumblr',
+        '2004',
+        'Michel Gondry',
+        'Disney',
+        'CCTV',
+        'post-apocalyptic',
+        'blaxploitation',
+        'commedia dell arte'
    ]
    
 $( "button" ).click(function() {
