@@ -33,7 +33,7 @@ input {
 
 div {
   display: inline;
-  font-family: 'Shadows Into Light;
+  font-family: 'Reenie Beanie';
   }
 
 .fill {
