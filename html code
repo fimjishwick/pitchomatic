@@ -133,13 +133,19 @@
   'farcical',
   'Kabuki',
   'street theatre',
-  'Futurist',
+  'futuristic',
   'high concept',
   'hyperrealist',
   'lowbrow',
   'neo-absurdist',
   'shocking',
-  'really fucking meaningful'
+  'really fucking meaningful',
+  'pretty angry',
+  'problematic,
+  'choose your own adventure',
+  'disturbingly intimate',
+  'five-hour',
+  'meta'
     ]
  
  // List of plays
@@ -188,7 +194,10 @@
   "The Crucible",
   "Little Women",
   "Wuthering Heights",
-  "Wagner's Ring Cycle"
+  "Wagner's Ring Cycle",
+  "The King's Speech",
+  "Rosencrantz and Guildenstern are Dead",
+  'Harry Potter and the Deathly Hallows: Part One'
     ]
  
  // List of aesthetics
@@ -225,7 +234,23 @@
   'Fairytale',
   'Enid Blyton',
   'kind of avant garde',
-  'Super Mario Bros'
+  'Super Mario Bros',
+  'latex',
+  'Renaissance',
+  'fleuro',
+  'vajazzled',
+  'Swiss Alps',
+  'Billy Joel',
+  'pyjama party',
+  'corporate chic',
+  'pre-historic',
+  'Greco-Roman',
+  'frathouse',
+  'skate park',
+  'comic book',
+  'fitspiration',
+  'swinging sixties',
+  'Vegas'
     ]
   
   // when a button is clicked  
