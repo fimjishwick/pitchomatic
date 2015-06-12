@@ -153,7 +153,7 @@
   'Romeo and Juliet',
 	'The Fresh Prince of Bel Air',
 	'The Old Testament',
-	'That dumb long poem by TS Eliot',
+	'that dumb long poem by TS Eliot',
 	'Hamlet',
   'Hamlet',
   'Hamlet',
@@ -197,7 +197,7 @@
   "Wagner's Ring Cycle",
   "The King's Speech",
   "Rosencrantz and Guildenstern are Dead",
-  'Harry Potter and the Deathly Hallows: Part One'
+  "Harry Potter and the Deathly Hallows Part One"
     ]
  
  // List of aesthetics
@@ -233,7 +233,7 @@
   'Youtube Vlog',
   'Fairytale',
   'Enid Blyton',
-  'kind of avant garde',
+  'vaguely avant garde',
   'Super Mario Bros',
   'latex',
   'Renaissance',
@@ -243,8 +243,8 @@
   'Billy Joel',
   'pyjama party',
   'corporate chic',
-  'pre-historic',
-  'Greco-Roman',
+  "pre-historic",
+  "Greco-Roman",
   'frathouse',
   'skate park',
   'comic book',
