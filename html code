@@ -81,7 +81,7 @@
 <button><div class="pitch">Pitch!</div></button>
 
 <div class="rights"><font size="2">
-  Pitch-o-matic by <a href="http://facebook.com/fimjishwick">Jim Fishwick</a><br>Image by <a href="https://www.flickr.com/photos/beija">Benjamin Thompson</a></div></font>
+  Pitch-o-Matic by <a href="http://facebook.com/fimjishwick">Jim Fishwick</a><br>Image by <a href="https://www.flickr.com/photos/beija">Benjamin Thompson</a></div></font>
  <script>
 
 // hide empty text to start with
@@ -250,7 +250,7 @@
   'comic book',
   'fitspiration',
   'swinging sixties',
-  'Vegas'
+  "Vegas"
     ]
   
   // when a button is clicked  
