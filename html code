@@ -128,6 +128,7 @@
   'historically accurate',
   'historically inaccurate',
   'Dadaist',
+  'multimedia',
   'wordless',
   'burlesque',
   'farcical',
@@ -145,24 +146,26 @@
   'choose your own adventure',
   'disturbingly intimate',
   'five-hour',
+  'sing-along',
+  'deliberately tedious',
   'meta'
     ]
  
  // List of plays
  var play = [
   'Romeo and Juliet',
-	'The Fresh Prince of Bel Air',
-	'The Old Testament',
-	'that dumb long poem by TS Eliot',
-	'Hamlet',
+  'The Fresh Prince of Bel Air',
+  'The Old Testament',
+  'that dumb long poem by TS Eliot',
   'Hamlet',
   'Hamlet',
-	'Scrabble',
-	'Waiting for Godot',
-	'The Glass Menagerie',
-	'The Da Vinci Code',
-	'The Removalists',
-	'pretty much anything by Martin McDonagh',
+  'Hamlet',
+  'Scrabble',
+  'Waiting for Godot',
+  'The Glass Menagerie',
+  'The Da Vinci Code',
+  'The Removalists',
+  'pretty much anything by Martin McDonagh',
   "this obscure Australian play no-one's heard of",
   'my diary',
   'the Australian constitution',
@@ -208,7 +211,7 @@
   'Space Noir',
   'hella gay',
   'sci-fi',
-   'Cold War',
+  'Cold War',
   'Film Noir',
   'Tumblr',
   '1997',
@@ -250,6 +253,7 @@
   'comic book',
   'fitspiration',
   'swinging sixties',
+  'claymation',
   "Vegas"
     ]
   
